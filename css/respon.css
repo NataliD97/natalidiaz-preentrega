@@ -67,7 +67,8 @@ body{
 }
 #check {display: none;}
 
-@media (max-width: 710px) {
+@media (max-width: 670px) {
+
     .menu {
         flex-direction: column;
         align-items: center;
@@ -86,6 +87,9 @@ body{
     .open-menu , .close-menu {display: block;}
     #check:checked ~ .menu {right: 0;}
 
+    
+
+
     /* QUIENES SOMOS*/
 
     .nosotros {text-align: center;}
@@ -98,10 +102,4 @@ body{
     .footer h5 {
         font-size: 40px;
     }
-    .buscar {display: none;}
-}
-
-
-
-
-
+    .buscar {display: none;}}
