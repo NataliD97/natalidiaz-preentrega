@@ -1,0 +1,693 @@
+
+
+
+body {
+    background-color: rgb(228, 222, 241) !important;
+    margin: 0;
+    padding: auto;
+}
+
+div.logotipo img {
+    width: 100px;
+    height: auto;
+}
+
+header div.menu {
+    width: 101%;
+    height: 60px;
+    padding: 53px 20px 12px 15px;
+    margin: -65px 10px 0px -10px;
+    background-color: #9a9aa3;
+}
+
+header div.menu nav ul {
+    list-style: none;
+    font-size: 21px;
+    text-align: center;
+    margin-top: -48px;
+    margin-left: -110px;
+}
+
+header div.menu nav ul li {
+    position: relative;
+    display: inline-block;
+    
+}
+
+header div.menu nav ul li a {
+    display: block;
+    padding: 15px 60px;
+    color: rgb(35, 35, 43);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+header div.menu nav ul li a:hover {
+    color: rgb(245, 244, 250);
+    transition: all 0.3s;
+}
+
+header div nav ul.menu2 {
+    list-style: none;
+    text-align: right;
+    font-size: 22px;
+    margin-top: -65px;
+    margin-right: 25px;
+}
+header div nav ul.menu2 li {
+    position: relative;
+    display: inline-block;
+}
+
+header div nav ul.menu2 li a {
+    display: block;
+    padding: 8px 3px;
+    color: rgb(44, 46, 54);
+    font-family: 'Segoe UI', Tahoma;
+    font-weight: bolder;
+    
+}
+
+header div nav ul.menu2 li a:hover {
+    color: rgb(151, 67, 170);
+    transition: all 0.3s;
+}
+
+div.carousel-inner img {
+    width: 90% !important;
+    height: auto;
+    margin: 30px 0px 50px 0px;
+    padding-left: 150px;
+    
+}
+
+
+
+  .buscar input {
+    width: 350px;
+    height: 45px;
+    padding: 0;
+    margin-left: 750px;
+    font-size: 20px;
+    color: black;
+    outline: none;
+    border: 1px solid rgb(201, 183, 183);
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    text-align: center;
+ }
+
+ .buscar .btn {
+    position: absolute;
+    margin-left: -45px;
+    background: rgba(189, 157, 221, 0.774);
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: rgb(89, 58, 109);
+    font-size: 20px;
+    border-radius: 45%;
+    cursor: pointer;
+ }
+
+
+.buscar .btn i {
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 5px;
+}
+
+.btn:hover i {
+    transition: all 0.2s;
+    color: rgb(69, 47, 116);
+}
+
+
+div.titulo {
+    padding: 50px;
+    margin: 60px -20px 40px -30px;
+   background-color: #181818;
+    background-size: cover;
+    
+ }
+ .titulo h1{
+    color: rgb(231, 213, 241);
+    font-family: 'Rampart One', cursive;
+    font-size: 120px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -10px;
+    
+ }
+
+ .titulo h4 {
+
+    color: rgb(193, 149, 211);
+    font-family: 'Josefin Sans';
+    font-size: 40px;
+    text-align: center;
+
+ }
+
+ .container {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.container div.home {
+    padding: 5px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+ 
+.container .home img {
+    width: 450px;
+    height: auto;
+    min-width: 200px;
+}
+.home h2 p {
+    width: 350px;
+}
+div.home h2 {
+    font-family: 'Phudu', cursive;
+    font-size: 70px;
+    font-weight: 400;
+    text-align: top right;
+    padding: 90px;
+}
+
+div.home p {
+    font-family: 'Josefin Sans', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(53, 50, 50);
+}
+
+.container2 {
+    display: flex;
+    padding: 10px;
+    margin: 50px;
+    justify-content: center;
+}
+
+.container2 .home2 {
+    padding: 5px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.container2 .home2 img {
+    width: 450px;
+    height: auto;
+    min-width: 200px;
+}
+
+.home2 h2 p {
+    width: 350px;
+}
+
+.home2 h2 {
+    font-family: 'Phudu', cursive;
+    font-size: 70px;
+    font-weight: 400;
+    text-align: top right;
+    padding: 90px;
+}
+ 
+.home2 p {
+    font-family: 'Josefin Sans', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(53, 50, 50);
+}
+
+.container3 {
+    display: flex;
+    padding: 10px;
+    margin: 50px;
+    justify-content: center;
+}
+
+.container3 .home3 {
+    padding: 5px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.container3 .home3 img {
+    width: 450px;
+    height: auto;
+    min-width: 200px;
+}
+
+.home3 h2 p {
+    width: 350px;
+}
+
+.home3 h2 {
+    font-family: 'Phudu', cursive;
+    font-size: 70px;
+    font-weight: 400;
+    text-align: top right;
+    padding: 90px;
+}
+
+.home3 p {
+    font-family: 'Josefin Sans', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(53, 50, 50);
+}
+
+
+
+
+
+.footer {
+    margin: 30% 0 5% 0;
+    padding: auto;
+}
+
+.footer h5 {
+
+    color: rgb(96, 61, 124);
+    font-family: 'Chelsea Market', cursive;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+footer .contact ul {
+    list-style: none;
+    text-align: right;
+    font-size: 22px;
+    
+}
+
+footer .contact ul li {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+footer .contact ul li a {
+    display: block;
+    padding: 15px 0 0 50px;
+    color: rgb(115, 41, 150);
+    font-family: 'Josefin Sans';
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer .contact ul li a:hover {
+    color: rgb(57, 26, 65);
+    transition: all 0s;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+
+
+/* formulario Inicio de Sesion*/
+
+
+.form {
+    font-family: 'Poppins', 'sans-serif';
+   
+    min-height: 55vh;
+
+}
+
+.form {
+    background-color: rgb(214, 209, 243);
+    margin: 50px auto;
+    width: 350px;
+    height: 450px;
+    padding:  50px 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 2px;
+    text-align: top center;
+}
+
+.form_title h2 {
+    font-size: 2rem;
+    margin-bottom: .5em;
+    text-align: center;
+}
+
+.form_paragraph {
+    font-weight: 300;
+    text-align: center;
+    
+}
+
+
+.form_container {
+    margin-top: 125px;
+    display: grid;
+    gap: 2em;
+}
+
+.form_group {
+    position: relative;
+    color: rgb(66, 65, 65);
+}
+
+.form_input {
+    width: 100px;
+    background: none;
+    color: rgb(124, 123, 123);
+    font-size: 1rem;
+    padding: .8em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+    font-family: 'Poppins', 'sans-serif';
+}
+
+
+.form_label {
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: all .5s, color ,3s;
+}
+
+.form_submit {
+    background: #3866f2;
+    color: white;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .8em 0;
+    border: none;
+    border-radius: .5em;
+}
+
+.form_line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #3866f2;
+}
+
+ /* PRODUCTOS */ 
+
+ .colec {
+    background-color: #909096;
+    margin-top: 15px;
+    
+ }
+
+ .colec .menu3 {
+    list-style: none;
+    text-align: center;
+    font-size: 40px;
+ }
+
+ .menu3 li {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+ }
+
+ .menu3 li a {
+    display: block;
+    padding: 10px 10px 10px 10px;
+    color: rgb(22, 22, 22);
+    font-family: 'Josefin Sans';
+    font-weight: bolder;
+    text-decoration: none;
+ }
+ .menu3 li a:hover {
+    color: rgb(233, 222, 236);
+    transition: all 0s;
+ }
+
+
+ .stock {
+    padding: 50px 50px 50px 50px;
+    margin: auto;
+
+ }
+
+ .stock h2 {
+    color: rgb(34, 34, 34);
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 100px;
+    font-weight: 500;
+    text-align: left;
+ }
+
+.stock p {
+    color: rgb(85, 82, 82);
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 30px;
+    font-weight: 300;
+    text-align:  left;
+    
+}
+
+.grid-cont {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 450px 450px 450px;
+    gap: 150px;
+    justify-content: center;
+}
+
+.grid-cont div img {
+    width: 350px;
+    height: auto;
+}
+
+.grid-cont div h3 {
+    color: rgb(39, 38, 38);
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.grid-cont div h4 {
+    color: black;
+    font-family: 'Phudu';
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.grid-cont div p {
+    color: rgb(230, 3, 192);
+    font-family: 'Poppins';
+    font-weight: bold;
+    
+}
+.grid-cont div h3 {
+    text-align: center;
+
+}
+.grid-cont div p {
+    text-align: center;
+}
+.grid-cont div h4  {
+    text-align: center;
+}
+
+
+
+/* NOVEDADES */
+
+.noved {
+    padding: 50px;
+    margin: 20px auto;
+    background-color: #181818;
+    
+}
+
+.noved h1 {
+    color: rgb(210, 185, 221);
+    font-family: 'Rampart One', cursive;
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+
+    margin-left: 150px;
+}
+
+.noved h2 {
+    color: rgb(210, 185, 221);
+    font-family: 'Rampart One', cursive;
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 200px;
+    margin-left: 200px;
+    
+}
+
+/*.noved p {
+    color: rgb(90, 87, 87);
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}*/
+
+.nuevo1 {
+    padding: 100px;
+    margin: auto;
+   
+}
+
+.nuevo1 .prim {
+    width: 450px;
+    height: auto;
+    margin-left: 20px;
+}
+.nuevo1 p {
+    color:  rgb(65, 66, 66);
+    font-family: 'Josefin Sans';
+    font-size: 35px;
+    position: absolute;
+    margin: -400px 50px 0px 500px;
+}
+
+.nuevo1 h3 {
+    color: rgb(94, 65, 114);
+    font-family: 'Phudu';
+    font-size: 90px;
+    font-weight: 300;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+ .nuevo1 .seg {
+    width: 450px;
+    height: auto;
+    margin-left: 700px;
+ }
+ .nuevo1 .p2 {
+    color: rgb(65, 66, 66);
+    font-family: 'Josefin Sans';
+    font-size: 35px;
+    margin: -400px 550px 0px 30px;
+ }
+
+ .nuevo2 {
+    padding: 100px;
+    margin: auto;
+   
+ }
+
+ .nuevo2 .prim {
+    width: 450px;
+    height: auto;
+    margin-left: 20px;
+ }
+ .nuevo2 p{
+    color:  rgb(65, 66, 66);
+    font-family: 'Josefin Sans';
+    font-size: 35px;
+    position: absolute;
+    margin: -400px 50px 0px 500px;
+ }
+
+ .nuevo2 h3 {
+    color: rgb(94, 65, 114);
+    font-family: 'Phudu';
+    font-size: 90px;
+    font-weight: 300;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+ }
+ .nuevo2 .seg {
+    width: 450px;
+    height: auto;
+    margin-left: 700px;
+ }
+ .nuevo2 .p2 {
+    color:  rgb(65, 66, 66);
+    font-family: 'Josefin Sans';
+    font-size: 35px;
+    margin: -400px 550px 0px 30px;
+ }
+
+ .nuevo3 {
+    padding: 100px;
+    margin: auto;
+  
+ }
+
+ .nuevo3 .prim {
+    width: 450px;
+    height: auto;
+    margin-left: 20px;
+ }
+ .nuevo3 p {
+    color:  rgb(65, 66, 66);
+    font-family: 'Josefin Sans';
+    font-size: 35px;
+    position: absolute;
+    margin: -400px 50px 0px 500px;
+ }
+
+ .nuevo3 h3 {
+    color: rgb(94, 65, 114);
+    font-family: 'Phudu';
+    font-size: 90px;
+    font-weight: 300;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+ }
+ .nuevo3 .seg {
+    width: 450px;
+    height: auto;
+    margin-left: 700px;
+ }
+.nuevo3 .p2 {
+    color: rgb(65, 66, 66);
+    font-family: 'Josefin Sans';
+    font-size: 35px;
+    margin: -400px 550px 0px 30px;
+}
+
+/* SOBRE NOSOTROS */
+
+.nosotros {margin: 50px;}
+.nosotros h1 {
+    font-family: 'Poppins', cursive; 
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.texto {margin: 90px 250px 90px 250px ;}
+
+.texto p {
+    font-family: 'Poppins', cursive;
+    font-size: 21px;
+}
+
+.texto h5 { 
+    font-family: 'Poppins', cursive;
+    font-size: 33px;
+}
+.texto  ul li {
+    font-family: 'Poppins', 'Lucida Sans', cursive;
+    font-size: 21px;
+}
