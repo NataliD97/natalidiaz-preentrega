@@ -102,4 +102,50 @@ body{
     .footer h5 {
         font-size: 40px;
     }
-    .buscar {display: none;}}
+    .buscar {display: none;}
+
+    .stock h2 {
+        font-size: 50px;
+    }
+    .stock p {
+        font-size: 20px;
+    }
+    .grid-cont {
+        margin-left: -90px;
+        grid-template-columns: 100px 100px;
+        grid-template-rows: 200px 200px 200px 200px 200px;
+        gap: 200px;
+        
+        
+
+    }
+    .grid-cont div img {
+        width: 200px;
+        height: auto;
+    }
+    .grid-cont div h3 {
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    .grid-cont div h3 {
+        position: absolute;
+        text-align: center;
+        margin-top: 20px;
+
+        margin-right: 100px;
+        
+    }
+    .grid-cont div h4 {
+        font-size: 30px;
+
+    }
+    .grid-cont div h4 {
+        margin-top: 70px;
+        margin-left: 50px;
+    }
+    .grid-cont div p {
+        position: absolute;
+    }
+}
+
